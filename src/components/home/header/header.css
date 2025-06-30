@@ -1,0 +1,161 @@
+.header-container {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.logo_image {
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #3A3C46;
+}
+
+.header_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link {
+    color: #51ECA0;
+    text-decoration: none ;
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;    
+    
+}
+
+
+
+.link:hover {
+    color: yellow;
+}
+
+.acc {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+/* Carusel */
+
+.carusel-block {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carusel1 {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../images/img1.jpg");
+}
+
+.carusel2 {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../images/Carusel.png");
+}
+.carusel3 {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../images/investor.jpg");
+}
+
+.carusel-info {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.carusel-info h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    transform: scaley(1.5);
+    letter-spacing: 5px;
+    
+}
+
+.acc_menu {
+    position: absolute !important;
+    z-index: 20;
+    background-color: #3A3C46 !important;
+    width: 15rem;
+    padding: 4px 2px;
+    margin-left: -185px;
+    top: 16px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.acc_btn {
+    background-color: #3A3C46;
+    border: none;
+    margin-left: 1rem;
+}
+
+.acc_menu_title {
+    color: white;
+    font-size: 16px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.name_acc {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+.z-index-20 {
+    z-index: 20 !important;
+    position: relative;
+}
+
+
+.add-butt:hover  {
+    .mylist-items {
+        display: block;
+        position: absolute;
+        z-index: 20;
+        background-color: #28292e;
+        padding: 6px 12px;
+        width: auto;
+    }
+
+    .mylist-items h1 {
+        font-size: 18px;
+        padding: 3px 0;
+        color: #51ECA0;
+        text-decoration: none;
+        border-bottom: 1px solid #6b6c72;
+    }
+    .mylist-items h1:hover {
+        background-color: #383c4f;
+    }
+}
+
+.add-butt .Link {
+    text-decoration: none;
+    
+}

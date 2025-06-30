@@ -1,0 +1,20 @@
+.mijozlar {
+    padding: 3rem 0;
+    background-color: #142336;
+}
+
+.mijoz_card {
+    display: grid;
+    place-items: center; 
+}
+
+.mijoz_card h3 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.mijoz_card p {
+    color: #e1ff00;
+    font-size: large;
+}
