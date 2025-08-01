@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ImgUploader from './imgUploader'
 
 const AddStartUp = () => {

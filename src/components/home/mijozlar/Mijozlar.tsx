@@ -12,14 +12,15 @@ import { motion } from "framer-motion";
 import { fadeIn } from '../../../variants';
 
 
-const Mijozlar = (): JSX.Element => {
+const Mijozlar = () => {
+    const ScrollTriggerAny = ScrollTrigger as any;
     const [countState, setCountState] = useState(false);
     return (
         <>
             <div className="mijozlar">
                 <div className="container">
                     {/* Bu scroll bulganda ishlaydi kutubxona react scroll-trigger */}
-                    <ScrollTrigger
+                    <ScrollTriggerAny
                         onEnter={() => setCountState(true)}
                         
                         >
@@ -99,7 +100,7 @@ const Mijozlar = (): JSX.Element => {
                             </div>
                         </div>
 
-                    </ScrollTrigger>
+                    </ScrollTriggerAny>
                 </div>
             </div>
         </>

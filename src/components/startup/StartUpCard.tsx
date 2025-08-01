@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { Info, MapPinCheck, Star } from "lucide-react";
+import { StartUPData } from "../../interfaces";
 
-const StartUpCard = ({ startup }) => {
+const StartUpCard = ({ startup }: { startup: StartUPData }) => {
     return (
         <>
 
