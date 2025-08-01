@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter, Youtube } from "lucide-react"
 import fooImg from "../..//../images/mainLogo.png"
-import "./Footer.css"
+import "./footer.css"
 
 
 function Footer() {
