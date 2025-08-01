@@ -69,7 +69,7 @@ const AddStartUp = () => {
                                         <input required type="text" className="form-control" id="name" placeholder="Bu shior yoki reklama so'zlari bo'lishi mumkin" />
 
                                         <label className=' mt-3! text-sm md:text-lg '>StartUpingiz haqida to'liq malumot! </label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows={5}
                                             placeholder="StartUpning eng ko'p sotiladigan mahsulotlari va xizmatlari qanday, ulardan kim foydalanadi va qanday? Mijozlar soni, daromad modeli, promouter tajribasi, StartUp aloqalari, mukofotlar va hokazolarni o'z ichiga olgan StartUpning muhim jihatlarini eslatib o'ting
                                     ">
 
